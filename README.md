@@ -1,6 +1,6 @@
 # Icarus1216.github.io
 
-这是参考 `https://chengyufang.tech/` 风格制作的静态学术个人主页。
+这是一个静态学术个人主页。
 
 ## 查看
 
