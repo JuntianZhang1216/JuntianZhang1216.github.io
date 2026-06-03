@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Data evaluation thumbnail</title>
+  <desc id="desc">Abstract data chart and evaluation cards.</desc>
+  <rect width="640" height="480" fill="#f7f8fa"/>
+  <rect x="70" y="72" width="500" height="336" rx="14" fill="#ffffff" stroke="#d9dde5" stroke-width="4"/>
+  <g fill="#dfe8e4">
+    <rect x="112" y="112" width="110" height="74" rx="8"/>
+    <rect x="112" y="214" width="110" height="74" rx="8"/>
+    <rect x="112" y="316" width="110" height="34" rx="8"/>
+  </g>
+  <g stroke="#b84f68" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M278 326l54-78 54 38 78-124 54 52"/>
+  </g>
+  <g fill="#245f73">
+    <circle cx="278" cy="326" r="10"/>
+    <circle cx="332" cy="248" r="10"/>
+    <circle cx="386" cy="286" r="10"/>
+    <circle cx="464" cy="162" r="10"/>
+    <circle cx="518" cy="214" r="10"/>
+  </g>
+</svg>

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>个人主页</title>
+    <meta name="description" content="Academic personal homepage" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <nav class="nav" aria-label="主导航">
+        <a class="brand" href="#about">Homepage</a>
+        <div class="nav-links">
+          <a href="#about">About Me</a>
+          <a href="#news">News</a>
+          <a href="#publications">Publications</a>
+          <a href="#awards">Honors and Awards</a>
+          <a href="#teaching">Teaching</a>
+          <a href="#internships">Internships</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar" aria-label="个人信息">
+        <section class="profile">
+          <img class="avatar" src="./assets/profile.svg" alt="个人头像占位图" />
+          <h1>你的姓名</h1>
+          <p class="affiliation">Tsinghua University</p>
+          <ul class="contact-list">
+            <li><span>Location</span><strong>Shenzhen, China</strong></li>
+            <li><span>Email</span><a href="mailto:your.email@example.com">your.email@example.com</a></li>
+            <li><span>GitHub</span><a href="https://github.com/">github.com/yourname</a></li>
+            <li><span>Google Scholar</span><a href="https://scholar.google.com/">Scholar Profile</a></li>
+            <li><span>LinkedIn</span><a href="https://www.linkedin.com/">LinkedIn Profile</a></li>
+          </ul>
+        </section>
+      </aside>
+
+      <article class="content">
+        <section id="about" class="section">
+          <h2>About Me</h2>
+          <p>
+            I am a graduate student and research intern working on multimodal learning,
+            visual perception, and generative AI systems. My current interests include
+            efficient vision-language models, data-centric model improvement, and
+            reliable AI systems for real-world applications.
+          </p>
+          <p>
+            Before this, I received my bachelor's degree in Computer Science and
+            participated in several engineering and research projects across machine
+            learning systems, data platforms, and applied AI.
+          </p>
+          <p class="notice">
+            I am open to research collaboration, internship opportunities, and
+            discussions around multimodal AI and large-scale training systems.
+          </p>
+        </section>
+
+        <section id="news" class="section">
+          <h2>News</h2>
+          <ul class="news-list">
+            <li><time>2026.06</time><span>Personal homepage template launched.</span></li>
+            <li><time>2026.05</time><span>Started a new project on efficient multimodal AI systems.</span></li>
+            <li><time>2026.03</time><span>One research project released as an open-source prototype.</span></li>
+            <li><time>2025.12</time><span>Served as a teaching assistant for an AI systems course.</span></li>
+          </ul>
+        </section>
+
+        <section id="publications" class="section">
+          <h2>Selected Publications</h2>
+          <p class="legend">* Equal contribution, † Corresponding author</p>
+
+          <div class="publication">
+            <figure>
+              <span class="badge">Preprint 2026</span>
+              <img src="./assets/pub-vision.svg" alt="Publication thumbnail" />
+            </figure>
+            <div>
+              <h3><a href="#">Efficient Multimodal Understanding with Adaptive Visual Tokens</a></h3>
+              <p class="authors"><strong>你的姓名</strong>, Collaborator A, Collaborator B, Advisor C†</p>
+              <p>
+                A lightweight framework for allocating visual tokens according to
+                task difficulty, improving inference efficiency while preserving
+                multimodal reasoning quality.
+              </p>
+              <p class="links"><a href="#">PDF</a><a href="#">Code</a><a href="#">Project</a></p>
+            </div>
+          </div>
+
+          <div class="publication">
+            <figure>
+              <span class="badge">Conference 2025</span>
+              <img src="./assets/pub-systems.svg" alt="Publication thumbnail" />
+            </figure>
+            <div>
+              <h3><a href="#">Reliable Training Pipelines for Large-Scale AI Applications</a></h3>
+              <p class="authors">Collaborator A*, <strong>你的姓名*</strong>, Collaborator B, Advisor C†</p>
+              <p>
+                A practical study of training orchestration, monitoring, and
+                failure recovery for production-oriented machine learning workloads.
+              </p>
+              <p class="links"><a href="#">PDF</a><a href="#">Slides</a></p>
+            </div>
+          </div>
+
+          <div class="publication">
+            <figure>
+              <span class="badge">Journal 2025</span>
+              <img src="./assets/pub-data.svg" alt="Publication thumbnail" />
+            </figure>
+            <div>
+              <h3><a href="#">Data-Centric Evaluation for Robust Visual Recognition</a></h3>
+              <p class="authors">Collaborator A, Collaborator B, <strong>你的姓名</strong></p>
+              <p>
+                A data-centric evaluation protocol for diagnosing distribution
+                shifts, label noise, and robustness issues in visual recognition.
+              </p>
+              <p class="links"><a href="#">PDF</a><a href="#">BibTeX</a></p>
+            </div>
+          </div>
+
+          <h3 class="subhead">More Publications</h3>
+          <ul class="compact-list">
+            <li>Benchmarking Multimodal Agents in Long-Horizon Tasks, <strong>arXiv 2026</strong>. <a href="#">[PDF]</a></li>
+            <li>Memory-Efficient Fine-Tuning for Vision-Language Models, <strong>Workshop 2025</strong>. <a href="#">[PDF]</a></li>
+            <li>Practical Lessons from Production ML Platforms, <strong>Technical Report 2025</strong>. <a href="#">[PDF]</a></li>
+          </ul>
+        </section>
+
+        <section id="teaching" class="section">
+          <h2>Teaching</h2>
+          <ul class="compact-list">
+            <li><time>2025.09 - 2026.01</time> Teaching Assistant, Artificial Intelligence Systems.</li>
+            <li><time>2024.09 - 2025.01</time> Teaching Assistant, Data Structures and Algorithms.</li>
+          </ul>
+        </section>
+
+        <section id="internships" class="section">
+          <h2>Internships</h2>
+          <ul class="compact-list">
+            <li><time>2026.05 - Present</time> Research Intern, GenAI Team, Technology Company.</li>
+            <li><time>2025.04 - 2026.04</time> Machine Learning Intern, AI Research Lab.</li>
+            <li><time>2024.07 - 2024.10</time> Software Engineering Intern, Data Platform Team.</li>
+          </ul>
+        </section>
+
+        <section id="awards" class="section">
+          <h2>Honors and Awards</h2>
+          <ul class="compact-list">
+            <li><time>2026.01</time> Outstanding Graduate Student Award.</li>
+            <li><time>2025.12</time> First-Class Academic Scholarship.</li>
+            <li><time>2024.08</time> First Prize, University Software Design Competition.</li>
+            <li><time>2023.12</time> National Scholarship.</li>
+          </ul>
+        </section>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 你的姓名. Last updated June 2026.</p>
+    </footer>
+  </body>
+</html>

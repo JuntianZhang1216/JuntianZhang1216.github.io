@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">A simple profile placeholder with initials.</desc>
+  <rect width="360" height="360" fill="#f7f8fa"/>
+  <circle cx="180" cy="146" r="64" fill="#d9dde5"/>
+  <path d="M76 316c15-70 67-104 104-104s89 34 104 104" fill="#d9dde5"/>
+  <circle cx="180" cy="180" r="168" fill="none" stroke="#b84f68" stroke-width="8"/>
+  <text x="180" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#415d53">JT</text>
+</svg>
