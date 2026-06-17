@@ -58,38 +58,42 @@
 </style>
 
 <div class="pub-horizontal-list">
-{% assign teaser_posts = site.publications | where_exp: "item", "item.header and item.header.teaser" %}
+{% assign teaser_posts = site.publications %}
 {% assign posts_by_date = teaser_posts | sort: "date" | reverse %}
 {% assign posts_by_author = posts_by_date | sort: "author_position" %}
 {% assign sorted_posts = posts_by_author | sort: "display_order" %}
 <div class="pub-title-nav">
 {% for post in sorted_posts %}
-  {% assign order_value = post.display_order | default: forloop.index %}
-  {% assign anchor_id = "pub-" | append: order_value %}
-  <a href="#{{ anchor_id }}">{{ order_value }}. {{ post.title }}</a>
+  {% if post.header and post.header.teaser %}
+    {% assign order_value = post.display_order | default: forloop.index %}
+    {% assign anchor_id = "pub-" | append: order_value %}
+    <a href="#{{ anchor_id }}">{{ order_value }}. {{ post.title }}</a>
+  {% endif %}
 {% endfor %}
 </div>
 {% for post in sorted_posts %}
-  {% assign order_value = post.display_order | default: forloop.index %}
-  {% assign anchor_id = "pub-" | append: order_value %}
-  <article class="pub-horizontal-item" id="{{ anchor_id }}">
-    <a class="pub-horizontal-cover" href="#{{ anchor_id }}">
-      <img src="{{ post.header.teaser | prepend: '/images/' | relative_url }}" alt="{{ post.title }}">
-    </a>
-    <div class="pub-horizontal-meta">
-      <h3>
-        <a href="#{{ anchor_id }}">{{ post.title }}</a>
-      </h3>
-      {% if post.venue %}
-        <p class="pub-horizontal-venue">{{ post.venue }}</p>
-      {% endif %}
-      {% if post.excerpt %}
-        <p class="pub-horizontal-excerpt">{{ post.excerpt | markdownify | strip_html }}</p>
-      {% endif %}
-      {% if post.paperurl %}
-        <p class="pub-horizontal-excerpt"><a href="{{ post.paperurl }}" target="_blank" rel="noopener">Paper</a></p>
-      {% endif %}
-    </div>
-  </article>
+  {% if post.header and post.header.teaser %}
+    {% assign order_value = post.display_order | default: forloop.index %}
+    {% assign anchor_id = "pub-" | append: order_value %}
+    <article class="pub-horizontal-item" id="{{ anchor_id }}">
+      <a class="pub-horizontal-cover" href="#{{ anchor_id }}">
+        <img src="{{ post.header.teaser | prepend: '/images/' | relative_url }}" alt="{{ post.title }}">
+      </a>
+      <div class="pub-horizontal-meta">
+        <h3>
+          <a href="#{{ anchor_id }}">{{ post.title }}</a>
+        </h3>
+        {% if post.venue %}
+          <p class="pub-horizontal-venue">{{ post.venue }}</p>
+        {% endif %}
+        {% if post.excerpt %}
+          <p class="pub-horizontal-excerpt">{{ post.excerpt | markdownify | strip_html }}</p>
+        {% endif %}
+        {% if post.paperurl %}
+          <p class="pub-horizontal-excerpt"><a href="{{ post.paperurl }}" target="_blank" rel="noopener">Paper</a></p>
+        {% endif %}
+      </div>
+    </article>
+  {% endif %}
 {% endfor %}
 </div>
