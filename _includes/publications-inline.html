@@ -6,20 +6,6 @@
   .pub-horizontal-list {
     margin-top: 1rem;
   }
-  .pub-title-nav {
-    margin: 1rem 0 1.25rem;
-    display: grid;
-    gap: 0.4rem;
-  }
-  .pub-title-nav a {
-    display: inline-block;
-    color: #1f3f75;
-    text-decoration: none;
-    line-height: 1.35;
-  }
-  .pub-title-nav a:hover {
-    text-decoration: underline;
-  }
   .pub-horizontal-item {
     display: grid;
     grid-template-columns: 320px 1fr;
@@ -62,15 +48,6 @@
 {% assign posts_by_date = teaser_posts | sort: "date" | reverse %}
 {% assign posts_by_author = posts_by_date | sort: "author_position" %}
 {% assign sorted_posts = posts_by_author | sort: "display_order" %}
-<div class="pub-title-nav">
-{% for post in sorted_posts %}
-  {% if post.header and post.header.teaser %}
-    {% assign order_value = post.display_order | default: forloop.index %}
-    {% assign anchor_id = "pub-" | append: order_value %}
-    <a href="#{{ anchor_id }}">{{ order_value }}. {{ post.title }}</a>
-  {% endif %}
-{% endfor %}
-</div>
 {% for post in sorted_posts %}
   {% if post.header and post.header.teaser %}
     {% assign order_value = post.display_order | default: forloop.index %}
