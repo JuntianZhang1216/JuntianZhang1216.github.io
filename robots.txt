@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://icarus1216.github.io/PersonalPage/sitemap.xml
