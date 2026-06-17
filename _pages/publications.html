@@ -1,18 +1,77 @@
 ---
 layout: archive
-title: "Selected Publications"
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can find the full publication list on <a href="{{site.author.googlescholar}}">Google Scholar</a>.</div>
+  <div class="wordwrap">Full list: <a href="{{site.author.googlescholar}}">Google Scholar</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html type="grid" %}
+<style>
+  .pub-horizontal-list {
+    margin-top: 1rem;
+  }
+  .pub-horizontal-item {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  .pub-horizontal-item:first-child {
+    border-top: 1px solid #e8e8e8;
+  }
+  .pub-horizontal-cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+    border: 1px solid #e5e5e5;
+  }
+  .pub-horizontal-meta h3 {
+    margin: 0 0 0.5rem;
+    line-height: 1.35;
+  }
+  .pub-horizontal-venue {
+    margin: 0 0 0.4rem;
+    color: #555;
+    font-size: 0.95rem;
+  }
+  .pub-horizontal-excerpt {
+    margin: 0;
+    color: #333;
+  }
+  @media (max-width: 900px) {
+    .pub-horizontal-item {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="pub-horizontal-list">
+{% assign sorted_posts = site.publications | sort: "date" | reverse %}
+{% for post in sorted_posts %}
+  {% if post.header and post.header.teaser %}
+    <article class="pub-horizontal-item">
+      <a class="pub-horizontal-cover" href="{{ post.paperurl | default: post.url }}" target="_blank" rel="noopener">
+        <img src="{{ post.header.teaser | prepend: '/images/' | relative_url }}" alt="{{ post.title }}">
+      </a>
+      <div class="pub-horizontal-meta">
+        <h3>
+          <a href="{{ post.paperurl | default: post.url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+        </h3>
+        {% if post.venue %}
+          <p class="pub-horizontal-venue">{{ post.venue }}</p>
+        {% endif %}
+        {% if post.excerpt %}
+          <p class="pub-horizontal-excerpt">{{ post.excerpt | markdownify | strip_html }}</p>
+        {% endif %}
+      </div>
+    </article>
+  {% endif %}
 {% endfor %}
-
-
+</div>
