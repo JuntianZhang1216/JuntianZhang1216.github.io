@@ -7,6 +7,7 @@ excerpt: "Representative paper (EMNLP 2025 Oral) on LLM-agent simulation of misi
 date: 2024-10-10
 venue: "EMNLP 2025 Oral"
 author_position: 3
+display_order: 4
 paperurl: "https://arxiv.org/abs/2410.19064"
 header:
   teaser: "publications/pub-stepwise-main.png"

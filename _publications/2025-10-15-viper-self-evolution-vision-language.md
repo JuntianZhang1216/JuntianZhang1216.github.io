@@ -7,6 +7,7 @@ excerpt: "First-author paper (ICLR 2026) on self-evolving visual perception in V
 date: 2025-10-15
 venue: "ICLR 2026"
 author_position: 1
+display_order: 2
 paperurl: "https://arxiv.org/abs/2510.24285"
 header:
   teaser: "publications/pub-viper-main.png"

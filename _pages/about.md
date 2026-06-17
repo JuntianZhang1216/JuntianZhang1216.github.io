@@ -20,6 +20,16 @@ Before that, I received my undergraduate education at Chu Kochen Honors College,
 - **Zhejiang University**, Chu Kochen Honors College  
   Major: Computer Science and Technology (Undergraduate)
 
+<h2 id="publications">Publications</h2>
+
+{% include publications-inline.html %}
+
+<h2 id="internships">Internships</h2>
+
+- **Meituan**: Large Model Algorithm Research Intern.
+- **Tencent WeChat**: Large Model Application Center Intern.
+- **ByteDance TikTok**: Frontier Technology Talent Program Intern.
+
 ## Links
 
 - Google Scholar: [https://scholar.google.com/citations?user=K-6vOfkAAAAJ&hl=en](https://scholar.google.com/citations?user=K-6vOfkAAAAJ&hl=en)

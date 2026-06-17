@@ -12,7 +12,7 @@ main:
     url: /
 
   - title: "Publications"
-    url: /publications/
+    url: /#publications
 
   - title: "Internships"
-    url: /internships/
+    url: /#internships

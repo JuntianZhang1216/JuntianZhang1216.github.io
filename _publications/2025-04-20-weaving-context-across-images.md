@@ -7,6 +7,7 @@ excerpt: "First-author paper (ACL 2025 Main) on improving multi-image context mo
 date: 2025-04-20
 venue: "ACL 2025 Main"
 author_position: 1
+display_order: 3
 paperurl: "https://arxiv.org/abs/2504.20199"
 header:
   teaser: "publications/pub-weaving-main.png"

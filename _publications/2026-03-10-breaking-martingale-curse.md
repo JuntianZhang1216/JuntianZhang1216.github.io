@@ -7,6 +7,7 @@ excerpt: "A multi-agent debate framework using asymmetric cognitive potential en
 date: 2026-03-10
 venue: "arXiv preprint"
 author_position: 2
+display_order: 7
 paperurl: "https://arxiv.org/abs/2603.06801"
 header:
   teaser: "publications/pub-martingale-main.png"
