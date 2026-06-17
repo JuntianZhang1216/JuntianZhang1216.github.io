@@ -6,6 +6,7 @@ permalink: /publication/weaving-context-across-images
 excerpt: "First-author paper (ACL 2025 Main) on improving multi-image context modeling in VLMs."
 date: 2025-04-20
 venue: "ACL 2025 Main"
+author_position: 1
 paperurl: "https://arxiv.org/abs/2504.20199"
 header:
   teaser: "publications/pub-weaving-main.png"

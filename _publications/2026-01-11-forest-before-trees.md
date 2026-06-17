@@ -6,6 +6,7 @@ permalink: /publication/forest-before-trees
 excerpt: "Latent-superposition paradigm for efficient visual reasoning in LVLMs."
 date: 2026-01-11
 venue: "ACL 2026 Main"
+author_position: 2
 paperurl: "https://arxiv.org/abs/2601.06803"
 header:
   teaser: "publications/pub-forest-main.png"

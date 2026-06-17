@@ -6,6 +6,7 @@ permalink: /publication/beyond-static-testbeds
 excerpt: "Interaction-centric simulation platform for evaluating dynamic recommender systems."
 date: 2025-05-22
 venue: "EMNLP 2025 Main"
+author_position: 2
 paperurl: "https://arxiv.org/abs/2505.16429"
 header:
   teaser: "publications/pub-beyond-static-main.png"

@@ -6,6 +6,7 @@ permalink: /publication/tagging-the-thought
 excerpt: "Personalization reasoning with reinforcement learning for LLM agents."
 date: 2025-09-10
 venue: "arXiv preprint"
+author_position: 2
 paperurl: "https://arxiv.org/abs/2509.23140"
 header:
   teaser: "publications/pub-tagging-main.png"

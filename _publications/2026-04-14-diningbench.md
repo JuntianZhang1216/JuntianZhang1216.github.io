@@ -6,6 +6,7 @@ permalink: /publication/diningbench
 excerpt: "Hierarchical multi-view benchmark for dietary-domain perception and reasoning."
 date: 2026-04-14
 venue: "arXiv preprint"
+author_position: 2
 paperurl: "https://arxiv.org/abs/2604.10425"
 header:
   teaser: "publications/pub-diningbench-main.png"
