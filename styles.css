@@ -279,6 +279,26 @@ time {
   letter-spacing: 0;
 }
 
+.keywords-line {
+  margin: 0;
+  border-left: 4px solid var(--accent);
+  background: var(--accent-soft);
+  padding: 12px 14px;
+  color: #7b3145;
+  font-weight: 600;
+}
+
+.plain-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plain-list li {
+  border-bottom: 1px solid #eef0f3;
+  padding: 10px 0;
+}
+
 .footer {
   border-top: 1px solid var(--line);
   color: var(--muted);
@@ -326,6 +346,7 @@ time {
   .contact-list {
     grid-column: 1 / -1;
   }
+
 }
 
 @media (max-width: 640px) {
