@@ -81,12 +81,22 @@ Before that, I received my undergraduate education at Chu Kochen Honors College,
   }
   .reward-list {
     margin: 0.65rem 0 1.3rem;
-    padding-left: 1.25rem;
+    padding-left: 0;
+    list-style: none;
   }
   .reward-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
     margin: 0.32rem 0;
     line-height: 1.45;
     color: #374151;
+  }
+  .reward-icon {
+    width: 1.05rem;
+    color: #0f766e;
+    text-align: center;
+    flex-shrink: 0;
   }
 </style>
 
@@ -142,7 +152,10 @@ Before that, I received my undergraduate education at Chu Kochen Honors College,
 <h2 id="awards" class="section-title">Awards</h2>
 
 <ul class="reward-list">
-  <li>Selected awards and honors are being organized and will be updated here.</li>
+  <li><i class="fas fa-award reward-icon" aria-hidden="true"></i>2021-2022 Academic Excellence Award, Zhejiang University</li>
+  <li><i class="fas fa-medal reward-icon" aria-hidden="true"></i>2022-2023 Second-Class Scholarship, Zhejiang University</li>
+  <li><i class="fas fa-graduation-cap reward-icon" aria-hidden="true"></i>Outstanding Graduate, Zhejiang University</li>
+  <li><i class="fas fa-trophy reward-icon" aria-hidden="true"></i>2025-2026 First-Class Scholarship, Renmin University of China</li>
 </ul>
 
 <h2 id="links" class="section-title">Links</h2>
