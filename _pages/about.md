@@ -68,6 +68,10 @@ Before that, I received my undergraduate education at Chu Kochen Honors College,
     background: #fff;
     padding: 3px;
   }
+  .edu-logo-list .profile-logo-item img {
+    width: 56px;
+    height: 56px;
+  }
   .profile-logo-item-title {
     margin: 0;
     font-weight: 600;
@@ -92,7 +96,7 @@ Before that, I received my undergraduate education at Chu Kochen Honors College,
 
 <h2 id="education" class="section-title">Education</h2>
 
-<div class="profile-logo-list">
+<div class="profile-logo-list edu-logo-list">
   <div class="profile-logo-item">
     <img src="{{ '/images/logos/ruc-logo-s.png' | relative_url }}" alt="Renmin University of China logo">
     <div>
