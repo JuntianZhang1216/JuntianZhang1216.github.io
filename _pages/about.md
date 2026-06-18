@@ -7,13 +7,42 @@ redirect_from:
   - /about.html
 ---
 
-I am currently studying Artificial Intelligence at the Gaoling School of Artificial Intelligence, Renmin University of China.
+I am currently a <span class="hl-major">Master's student in Artificial Intelligence</span> at the <span class="hl-school">Gaoling School of Artificial Intelligence</span>, <span class="hl-school">Renmin University of China</span>.
 
-Before that, I received my undergraduate education at Chu Kochen Honors College, Zhejiang University, majoring in Computer Science and Technology.
+Before that, I received my undergraduate education at <span class="hl-school">Chu Kochen Honors College, Zhejiang University</span>, majoring in <span class="hl-major">Computer Science and Technology</span>.
 
-**Research interests:** Natural Language Processing (NLP), Large Language Models (LLMs), and Multimodal Large Language Models (MLLMs).
+<p><strong>Research interests:</strong> <span class="hl-interest">Natural Language Processing (NLP)</span>, <span class="hl-interest">Large Language Models (LLMs)</span>, and <span class="hl-interest">Multimodal Large Language Models (MLLMs)</span>.</p>
 
 <style>
+  .section-title {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin: 1.75rem 0 0.95rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 2px solid #e7e9ee;
+    line-height: 1.2;
+  }
+  .section-title::before {
+    content: "";
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: #0f766e;
+    flex-shrink: 0;
+  }
+  .hl-school {
+    color: #0f766e;
+    font-weight: 600;
+  }
+  .hl-major {
+    color: #1d4ed8;
+    font-weight: 600;
+  }
+  .hl-interest {
+    color: #b45309;
+    font-weight: 600;
+  }
   .profile-logo-list {
     margin: 0.75rem 0 1.25rem;
     display: grid;
@@ -45,32 +74,41 @@ Before that, I received my undergraduate education at Chu Kochen Honors College,
     font-size: 0.95rem;
     line-height: 1.35;
   }
+  .reward-list {
+    margin: 0.65rem 0 1.3rem;
+    padding-left: 1.25rem;
+  }
+  .reward-list li {
+    margin: 0.32rem 0;
+    line-height: 1.45;
+    color: #374151;
+  }
 </style>
 
-## Education
+<h2 id="education" class="section-title">Education</h2>
 
 <div class="profile-logo-list">
   <div class="profile-logo-item">
     <img src="{{ '/images/logos/ruc-logo-s.png' | relative_url }}" alt="Renmin University of China logo">
     <div>
-      <p class="profile-logo-item-title">Renmin University of China, Gaoling School of Artificial Intelligence</p>
-      <p class="profile-logo-item-sub">Major: Artificial Intelligence (Current)</p>
+      <p class="profile-logo-item-title"><span class="hl-school">Renmin University of China</span>, <span class="hl-school">Gaoling School of Artificial Intelligence</span></p>
+      <p class="profile-logo-item-sub">Major: <span class="hl-major">Artificial Intelligence (Master)</span></p>
     </div>
   </div>
   <div class="profile-logo-item">
     <img src="{{ '/images/logos/zju-icon.png' | relative_url }}" alt="Zhejiang University logo">
     <div>
-      <p class="profile-logo-item-title">Zhejiang University, Chu Kochen Honors College</p>
-      <p class="profile-logo-item-sub">Major: Computer Science and Technology (Undergraduate)</p>
+      <p class="profile-logo-item-title"><span class="hl-school">Zhejiang University</span>, <span class="hl-school">Chu Kochen Honors College</span></p>
+      <p class="profile-logo-item-sub">Major: <span class="hl-major">Computer Science and Technology (Undergraduate)</span></p>
     </div>
   </div>
 </div>
 
-<h2 id="publications">Publications</h2>
+<h2 id="publications" class="section-title">Publications</h2>
 
 {% include publications-inline.html %}
 
-<h2 id="internships">Internships</h2>
+<h2 id="internships" class="section-title">Internships</h2>
 
 <div class="profile-logo-list">
   <div class="profile-logo-item">
@@ -96,7 +134,13 @@ Before that, I received my undergraduate education at Chu Kochen Honors College,
   </div>
 </div>
 
-## Links
+<h2 id="awards" class="section-title">Awards</h2>
+
+<ul class="reward-list">
+  <li>Selected awards and honors are being organized and will be updated here.</li>
+</ul>
+
+<h2 id="links" class="section-title">Links</h2>
 
 - Google Scholar: [https://scholar.google.com/citations?user=K-6vOfkAAAAJ&hl=en](https://scholar.google.com/citations?user=K-6vOfkAAAAJ&hl=en)
 - GitHub: [https://github.com/JuntianZhang1216](https://github.com/JuntianZhang1216)
