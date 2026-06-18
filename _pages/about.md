@@ -7,40 +7,41 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a <span class="hl-major">Master's student in Artificial Intelligence</span> at the <span class="hl-school">Gaoling School of Artificial Intelligence</span>, <span class="hl-school">Renmin University of China</span>.
+I am currently a Master's student in Artificial Intelligence at the Gaoling School of Artificial Intelligence, Renmin University of China.
 
-Before that, I received my undergraduate education at <span class="hl-school">Chu Kochen Honors College, Zhejiang University</span>, majoring in <span class="hl-major">Computer Science and Technology</span>.
+Before that, I received my undergraduate education at Chu Kochen Honors College, Zhejiang University, majoring in Computer Science and Technology.
 
 <p><strong>Research interests:</strong> <span class="hl-interest">Natural Language Processing (NLP)</span>, <span class="hl-interest">Large Language Models (LLMs)</span>, and <span class="hl-interest">Multimodal Large Language Models (MLLMs)</span>.</p>
 
 <style>
   .section-title {
-    display: flex;
-    align-items: center;
-    gap: 0.55rem;
+    position: relative;
+    display: block;
     margin: 1.75rem 0 0.95rem;
-    padding-bottom: 0.35rem;
-    border-bottom: 2px solid #e7e9ee;
-    line-height: 1.2;
+    padding-bottom: 0.45rem;
+    border-bottom: 1px solid #e7e9ee;
+    line-height: 1.25;
+    font-size: 1.42rem;
+    font-weight: 700;
+    color: #0f172a;
+    letter-spacing: 0.01em;
   }
-  .section-title::before {
+  .section-title::after {
     content: "";
-    width: 0.58rem;
-    height: 0.58rem;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 4.4rem;
+    height: 3px;
     border-radius: 999px;
-    background: #0f766e;
-    flex-shrink: 0;
+    background: linear-gradient(90deg, #0f766e, #14b8a6);
   }
   .hl-school {
     color: #0f766e;
     font-weight: 600;
   }
-  .hl-major {
-    color: #1d4ed8;
-    font-weight: 600;
-  }
   .hl-interest {
-    color: #b45309;
+    color: #15803d;
     font-weight: 600;
   }
   .profile-logo-list {
@@ -92,14 +93,14 @@ Before that, I received my undergraduate education at <span class="hl-school">Ch
     <img src="{{ '/images/logos/ruc-logo-s.png' | relative_url }}" alt="Renmin University of China logo">
     <div>
       <p class="profile-logo-item-title"><span class="hl-school">Renmin University of China</span>, <span class="hl-school">Gaoling School of Artificial Intelligence</span></p>
-      <p class="profile-logo-item-sub">Major: <span class="hl-major">Artificial Intelligence (Master)</span></p>
+      <p class="profile-logo-item-sub">Major: Artificial Intelligence (Master)</p>
     </div>
   </div>
   <div class="profile-logo-item">
     <img src="{{ '/images/logos/zju-icon.png' | relative_url }}" alt="Zhejiang University logo">
     <div>
       <p class="profile-logo-item-title"><span class="hl-school">Zhejiang University</span>, <span class="hl-school">Chu Kochen Honors College</span></p>
-      <p class="profile-logo-item-sub">Major: <span class="hl-major">Computer Science and Technology (Undergraduate)</span></p>
+      <p class="profile-logo-item-sub">Major: Computer Science and Technology (Undergraduate)</p>
     </div>
   </div>
 </div>
