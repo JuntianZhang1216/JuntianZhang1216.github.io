@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a <span class="hl-degree">Master's student</span> in Artificial Intelligence at the Gaoling School of Artificial Intelligence, Renmin University of China.
+I am currently a <strong>Master's student</strong> in Artificial Intelligence at the Gaoling School of Artificial Intelligence, Renmin University of China.
 
 Before that, I received my undergraduate education at Chu Kochen Honors College, Zhejiang University, majoring in Computer Science and Technology.
 
@@ -40,12 +40,8 @@ Before that, I received my undergraduate education at Chu Kochen Honors College,
     color: #0f766e;
     font-weight: 600;
   }
-  .hl-degree {
-    color: #7c3aed;
-    font-weight: 700;
-  }
   .hl-interest {
-    color: #1d4ed8;
+    color: #1e3a8a;
     font-weight: 600;
   }
   .profile-logo-list {
