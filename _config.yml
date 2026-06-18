@@ -13,10 +13,10 @@ title                    : "Juntian Zhang"
 title_separator          : "-"
 name                     : &name "Juntian Zhang"
 description              : &description "Juntian Zhang's academic personal homepage."
-url                      : https://icarus1216.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://juntianzhang1216.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "/PersonalPage" # the subpath of your site, e.g. "/blog"
-repository               : "Icarus1216/PersonalPage"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "JuntianZhang1216/JuntianZhang1216.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -29,7 +29,7 @@ author:
   bio              : "M.S. student in Artificial Intelligence at Renmin University of China."
   location         : "Beijing, China"
   employer         : "Gaoling School of Artificial Intelligence, Renmin University of China"
-  uri              : "https://icarus1216.github.io/PersonalPage/"
+  uri              : "https://juntianzhang1216.github.io/"
   email            : 
 
   # Academic websites
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "Icarus1216"
+  github           : "JuntianZhang1216"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -147,7 +147,7 @@ social:
   type                   : Person
   name                   : Juntian Zhang
   links:
-    - "https://github.com/Icarus1216"
+    - "https://github.com/JuntianZhang1216"
     - "https://scholar.google.com/citations?user=K-6vOfkAAAAJ&hl=en"
 
 

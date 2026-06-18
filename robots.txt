@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://icarus1216.github.io/PersonalPage/sitemap.xml
+Sitemap: https://juntianzhang1216.github.io/sitemap.xml

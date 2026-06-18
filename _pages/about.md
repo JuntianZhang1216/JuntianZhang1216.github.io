@@ -99,4 +99,4 @@ Before that, I received my undergraduate education at Chu Kochen Honors College,
 ## Links
 
 - Google Scholar: [https://scholar.google.com/citations?user=K-6vOfkAAAAJ&hl=en](https://scholar.google.com/citations?user=K-6vOfkAAAAJ&hl=en)
-- GitHub: [https://github.com/Icarus1216](https://github.com/Icarus1216)
+- GitHub: [https://github.com/JuntianZhang1216](https://github.com/JuntianZhang1216)
